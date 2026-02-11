@@ -20,7 +20,8 @@ jobs:
     env:
       # For GitHub project pages: "/REPO_NAME/"
       # If you use a user/organization pages repo named USER.github.io, set this to "/"
-      PATH_PREFIX: "/${{ github.event.repository.name }}/"
+      # PATH_PREFIX: "/${{ github.event.repository.name }}/"
+      PATH_PREFIX: "/"
 
     steps:
       - name: Checkout
