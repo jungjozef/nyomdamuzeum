@@ -32,6 +32,12 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contact_hu"
+        label: "Contact (HU)"
+        file: "src/hu/contact.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "pages_sr"
     label: "Pages (Serbian)"
@@ -54,6 +60,12 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contact_sr"
+        label: "Contact (SR)"
+        file: "src/sr/contact.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "pages_en"
     label: "Pages (English)"
@@ -73,6 +85,12 @@ collections:
       - name: "editorial_en"
         label: "Editorial (EN)"
         file: "src/en/editorial.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "contact_en"
+        label: "Contact (EN)"
+        file: "src/en/contact.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }

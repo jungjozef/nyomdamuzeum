@@ -1,5 +1,8 @@
 <footer>
+  {% set activeLang = lang or site.defaultLang %}
+  {% set copy = i18n[activeLang] %}
   <div class="container">
     <p>&copy; {{ currentYear }} {{ site.name }}</p>
+    <p class="footer-tagline">{{ copy.footer.tagline }}</p>
   </div>
 </footer>

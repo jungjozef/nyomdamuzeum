@@ -1,0 +1,38 @@
+{
+  "hu": {
+    "menu": {
+      "home": "Fooldal",
+      "museum": "Muzeum",
+      "conference": "Konferenciaterem",
+      "editorial": "Szerkesztoseg",
+      "contact": "Kapcsolat"
+    },
+    "footer": {
+      "tagline": "Magyar Szo - sajto es media portal"
+    }
+  },
+  "sr": {
+    "menu": {
+      "home": "Pocetna",
+      "museum": "Muzej",
+      "conference": "Konferencijska sala",
+      "editorial": "Redakcija",
+      "contact": "Kontakt"
+    },
+    "footer": {
+      "tagline": "Magyar Szo - portal za stampu i medije"
+    }
+  },
+  "en": {
+    "menu": {
+      "home": "Home",
+      "museum": "Museum",
+      "conference": "Conference",
+      "editorial": "Editorial",
+      "contact": "Contact"
+    },
+    "footer": {
+      "tagline": "Magyar Szo - press and media portal"
+    }
+  }
+}
