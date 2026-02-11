@@ -1,0 +1,10 @@
+<nav aria-label="Language switcher">
+  <label class="visually-hidden" for="lang-select">Language</label>
+  <select id="lang-select" class="lang-select" data-lang-select>
+    {% for locale in locales %}
+      <option value="{{ locale.code }}" {% if locale.code == lang %}selected{% endif %}>
+        {{ locale.label }}
+      </option>
+    {% endfor %}
+  </select>
+</nav>

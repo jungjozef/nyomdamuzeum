@@ -1,0 +1,6 @@
+<header>
+  <div class="container">
+    <a class="logo" href="{{ ('/' ~ (lang or site.defaultLang) ~ '/') | urlWithPrefix }}">{{ site.name }}</a>
+    {% include "partials/lang-switcher.njk" %}
+  </div>
+</header>

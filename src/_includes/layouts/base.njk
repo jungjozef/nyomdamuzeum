@@ -1,0 +1,19 @@
+<!doctype html>
+<html
+  lang="{{ lang or site.defaultLang }}"
+  data-current-lang="{{ lang or '' }}"
+  data-current-slug="{{ slug or '' }}"
+  data-path-prefix="{{ '/' | urlWithPrefix }}"
+>
+  <head>
+    {% include "partials/head.njk" %}
+  </head>
+  <body>
+    {% include "partials/header.njk" %}
+    <main>
+      {{ content | safe }}
+    </main>
+    {% include "partials/footer.njk" %}
+    <script src="{{ '/assets/js/main.js' | urlWithPrefix }}" defer></script>
+  </body>
+</html>

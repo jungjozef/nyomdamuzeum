@@ -1,0 +1,12 @@
+{
+  "name": "magyar-szo-site",
+  "private": true,
+  "scripts": {
+    "dev": "eleventy --serve --port=8080",
+    "build": "eleventy",
+    "build:pages": "PATH_PREFIX=\"/${npm_package_name}/\" eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}

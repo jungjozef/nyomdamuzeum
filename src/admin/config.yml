@@ -1,0 +1,78 @@
+backend:
+  name: github
+  repo: YOUR_GITHUB_ORG_OR_USER/YOUR_REPO_NAME
+  branch: main
+
+publish_mode: editorial_workflow
+
+media_folder: "src/images/uploads"
+public_folder: "/images/uploads"
+
+site_url: "https://YOUR_GITHUB_USER_OR_ORG.github.io/YOUR_REPO_NAME"
+
+collections:
+  - name: "pages_hu"
+    label: "Pages (Hungarian)"
+    files:
+      - name: "museum_hu"
+        label: "Museum (HU)"
+        file: "src/hu/museum.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "conference_hu"
+        label: "Conference Room (HU)"
+        file: "src/hu/conference.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "editorial_hu"
+        label: "Editorial (HU)"
+        file: "src/hu/editorial.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages_sr"
+    label: "Pages (Serbian)"
+    files:
+      - name: "museum_sr"
+        label: "Museum (SR)"
+        file: "src/sr/museum.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "conference_sr"
+        label: "Conference Room (SR)"
+        file: "src/sr/conference.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "editorial_sr"
+        label: "Editorial (SR)"
+        file: "src/sr/editorial.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages_en"
+    label: "Pages (English)"
+    files:
+      - name: "museum_en"
+        label: "Museum (EN)"
+        file: "src/en/museum.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "conference_en"
+        label: "Conference Room (EN)"
+        file: "src/en/conference.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "editorial_en"
+        label: "Editorial (EN)"
+        file: "src/en/editorial.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
