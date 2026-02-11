@@ -1,38 +1,38 @@
 {
   "hu": {
     "menu": {
-      "home": "Fooldal",
-      "museum": "Muzeum",
+      "home": "Főoldal",
+      "museum": "Nyomda és sajtómúzeum",
       "conference": "Konferenciaterem",
-      "editorial": "Szerkesztoseg",
+      "editorial": "Szerkesztőség",
       "contact": "Kapcsolat"
     },
     "footer": {
-      "tagline": "Magyar Szo - sajto es media portal"
+      "tagline": "Magyar Szó - minden jog fenntartva"
     }
   },
   "sr": {
     "menu": {
-      "home": "Pocetna",
-      "museum": "Muzej",
+      "home": "Početna",
+      "museum": "Muzej štamparije",
       "conference": "Konferencijska sala",
       "editorial": "Redakcija",
       "contact": "Kontakt"
     },
     "footer": {
-      "tagline": "Magyar Szo - portal za stampu i medije"
+      "tagline": "Magyar Szo - sva prava zadržana"
     }
   },
   "en": {
     "menu": {
       "home": "Home",
-      "museum": "Museum",
-      "conference": "Conference",
+      "museum": "Museum of Printing",
+      "conference": "Conference Room",
       "editorial": "Editorial",
       "contact": "Contact"
     },
     "footer": {
-      "tagline": "Magyar Szo - press and media portal"
+      "tagline": "Magyar Szo - all rights reserved"
     }
   }
 }

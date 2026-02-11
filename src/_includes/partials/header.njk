@@ -4,7 +4,6 @@
   <div class="container nav-wrap">
     <a class="logo" href="{{ ('/' ~ activeLang ~ '/') | urlWithPrefix }}">{{ site.name }}</a>
     <nav class="main-nav" aria-label="Main menu">
-      <a href="{{ ('/' ~ activeLang ~ '/') | urlWithPrefix }}" {% if (slug or '') == '' %}aria-current="page"{% endif %}>{{ copy.menu.home }}</a>
       <a href="{{ ('/' ~ activeLang ~ '/museum/') | urlWithPrefix }}" {% if slug == 'museum' %}aria-current="page"{% endif %}>{{ copy.menu.museum }}</a>
       <a href="{{ ('/' ~ activeLang ~ '/conference/') | urlWithPrefix }}" {% if slug == 'conference' %}aria-current="page"{% endif %}>{{ copy.menu.conference }}</a>
       <a href="{{ ('/' ~ activeLang ~ '/editorial/') | urlWithPrefix }}" {% if slug == 'editorial' %}aria-current="page"{% endif %}>{{ copy.menu.editorial }}</a>
