@@ -6,8 +6,13 @@ slug: museum
 permalink: /hu/museum/
 ---
 
-# Nyomd és sajtóamúzeum
+# Nyomda és sajtóamúzeum
 
+<figure class="hero-media-wide">
+  <img src="{{ '/images/museum/hero.jpg' | urlWithPrefix }}" alt="A Magyar Szo epulete" />
+</figure>
+
+<p style="text-align:justify">
 A Forum Nyomda 1957-ben jött létre azzal a céllal, hogy az akkor már több mint tíz éve megjelenő
 Magyar Szót – mint az egyetlen vajdasági magyar nyelvű napilapot –, valamint más kisebbségi nyelveken
 megjelenő kiadványokat nyomtassa. Kevés olyan magyar nyelvű napi- vagy hetilap jelent meg az egykori
@@ -26,3 +31,4 @@ hogy megújult és új csarnokkal bővült a nyomda telepi részlege, aminek kö
 egyesíteni a két részlegét, ezáltal lehetővé vált, hogy új gépek vásárlásával és jobb munkakörülmények
 biztosításával bővítsék a nyomda által kínált szolgáltatások sorát, tovább növelve a szolgáltatásaik
 színvonalát is.
+</p>
